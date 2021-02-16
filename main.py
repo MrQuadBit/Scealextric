@@ -6,6 +6,18 @@ F_MIDPOINTS = "Veale's script midpoints.xlsx"
 F_NOC_LIST = "Veales The NOC List.xlsx" 
 F_ACTIONS = "Veale's category actions.xlsx"
 
+"""
+Sólo para identificar quién es A y B
+Poner que hace A y qué hace B
+A tiene 2 personajes A es el personaje 1 y B es el personaje B
+Asociación indirecta 2 opciones
+Explicar y poner en la documentación la euristica que se usó
+Asociación directa misma afiliación politica
+enemigo asociación directa
+Indirecta son 2 pasos para obtener esta asociación
+sólo para escoger a B
+"""
+
 def getOnestringFromStrings(strings):
 	string_list = strings.split()
 	new_string = string_list[randint(0, len(string_list)-1)]
